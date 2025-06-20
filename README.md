@@ -26,7 +26,7 @@ Print parameters:
 ```bash
 ./train.py --help
 ```
-GloVe pre-trained word vectors can be downloaded from https://github.com/stanfordnlp/GloVe and placed in the .data/embedding/ directory during runtime. When training the model, the word vector input dimension must be consistent with the pre-trained word vector dimension. For example, if 300-dimensional GloVe is used, the model embedding layer dimension must be set to 300.The course paper uses Wikipedia 2014 + Gigaword 5 (6B tokens, 400K vocab, uncased, 300d vectors, 822 MB download).
+GloVe pre-trained word vectors can be downloaded from https://github.com/stanfordnlp/GloVe and placed in the .data/embedding/ directory during runtime. When training the model, the word vector input dimension must be consistent with the pre-trained word vector dimension. For example, if 300-dimensional GloVe is used, the model embedding layer dimension(--embedding_dim) must be set to 300.The course paper uses Wikipedia 2014 + Gigaword 5 (6B tokens, 400K vocab, uncased, 300d vectors, 822 MB download).
 
 ```
 optional arguments:
