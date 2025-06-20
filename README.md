@@ -8,7 +8,7 @@ This project is solely for the purpose of a course paper and is not for commerci
 - Original repository link: [cnn-text-classification-tf](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)
 - Original repository license: [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
-This is a re-implementation and enhancement of the framework proposed in Kim's paper [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882), using TensorFlow. Mainly added attention mechanism and void convolution.
+This is a re-implementation and enhancement of the framework proposed in Kim's paper [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882), using TensorFlow. 
 
 ## Requirements
 
@@ -26,6 +26,7 @@ Print parameters:
 ```bash
 ./train.py --help
 ```
+GloVe pre-trained word vectors can be downloaded from https://github.com/stanfordnlp/GloVe and placed in the .data/embedding/ directory during runtime. When training the model, the word vector input dimension must be consistent with the pre-trained word vector dimension. For example, if 300-dimensional GloVe is used, the model embedding layer dimension must be set to 300.
 
 ```
 optional arguments:
