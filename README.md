@@ -1,4 +1,4 @@
-# [An Improvement Study on TextCNN Integrated with Dilated Convolution and Attention Mechanism for Text Classification]
+# An Improvement Study on TextCNN Integrated with Dilated Convolution and Attention Mechanism for Text Classification
 
 This project is an improvement based on the [cnn-text-classification-tf](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/) repository. The original repository is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
