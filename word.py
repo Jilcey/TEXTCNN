@@ -52,7 +52,6 @@ def generate_model_aware_wordcloud(dataset_type, positive_data_file=None, negati
     wordcloud.to_file(save_path)
     print(f"Optimized word cloud saved to: {save_path}")
 
-    # 显示词云图
     plt.figure(figsize=(10, 6))
     plt.imshow(wordcloud, interpolation="bilinear")
     plt.axis('off')
