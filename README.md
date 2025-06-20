@@ -5,7 +5,7 @@ This project is an improvement based on the [cnn-text-classification-tf](http://
 This project is solely for the purpose of a course paper and is not for commercial use.
 
 ## Original Repository Information
-- Original repository link: [cnn-text-classification-tf](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)
+- Original repository link: https://github.com/dennybritz/cnn-text-classification-tf
 - Original repository license: [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 This is a re-implementation and enhancement of the framework proposed in Kim's paper [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882), using TensorFlow. On this basis, the attention mechanism and dilated convolution are added.
